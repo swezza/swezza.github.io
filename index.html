@@ -14,7 +14,7 @@
             </div>
             <div class = "buttons">
                 <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
-                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="nextPage()">No</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="nextPagee()">No</button>
                 <script>
                     function nextPage() {
                         window.location.href = "yes.html";
@@ -26,6 +26,8 @@
                         document.getElementById('noButton').style.left = `${x}px`;
                         document.getElementById('noButton').style.top = `${y}px`;
                     }
+                    function nextPagee() {
+                        window.location.href = "no.html";
                 </script> 
             </div>
         </div>
